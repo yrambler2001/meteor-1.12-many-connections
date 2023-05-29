@@ -2,7 +2,7 @@
   "name": "simple-todos",
   "private": true,
   "scripts": {
-    "start": "meteor run",
+    "start": "MONGO_URL=\"mongodb+srv://SOME_TEXT:SOME_TEXT@SOME_TEXT.mongodb.net/?replicaSet=SOME_TEXT&readPreference=primary&srvServiceName=mongodb&connectTimeoutMS=10000&authSource=admin&authMechanism=SCRAM-SHA-1&maxPoolSize=100&minPoolSize=100\" meteor run",
     "test": "meteor test --once --driver-package meteortesting:mocha",
     "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
     "visualize": "meteor --production --extra-packages bundle-visualizer"
